@@ -1,0 +1,92 @@
+.container{
+	margin: 20px auto;
+	width: 360px;
+	max-width: 40%;
+   
+   background: silver;
+   box-shadow: 10px 2px 5px black;
+   font-size: inherit;
+   
+}
+
+.check{
+    color:grey;
+    text-decoration: line-through;
+}
+
+h2{
+	background: skyblue;
+	color: white;
+	margin: 0;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: 800;
+	text-transform: uppercase;
+	 line-height: 1.2;
+}
+
+.type{
+	padding: 5px;
+	align-content: center;
+	box-sizing: border-box; 
+	width: 100%;
+	font-size: inherit;
+	font-weight: 500;
+	padding: 13px 13px 13px 20px;
+}
+
+input:focus{
+	outline: none;
+	border: 2px solid blue;
+	background: silver;
+}
+ul{
+	margin: 0;
+	list-style: none;
+	padding: 0;
+
+}
+li{
+	background: white;
+	padding-bottom: 5px;
+	
+	height: 30px;
+	 line-height: 30px;
+}
+li:nth-of-type(2n)
+{
+	background: silver;
+}
+body {
+	
+  background: -webkit-linear-gradient(90deg, #1565C0 10%, #EAECC6 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg,#1565C0 10%, #EAECC6 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #1565C0 10%, #EAECC6 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg,#1565C0 10%, #EAECC6 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #1565C0 10%, #EAECC6 90%); /* W3C */
+  border: 3px solid rgba(0, 0, 0, 0);
+  font-family: "comic sans ms";
+
+}
+.fa-plus{
+	float: right;
+	margin-right: 10px;
+
+}
+
+
+span{
+	background: black;
+	margin-right: 20px;
+	color: rgba(255 , 255, 255, 0.1);
+	height: 100%;
+	text-align: center;
+	width: 0;
+	display: inline-block;
+	transition: 0.5s linear;
+}
+li:hover span{
+   width: 40px;
+   color: red;
+}
